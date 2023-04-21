@@ -1,0 +1,52 @@
+html{
+  margin: 5vw;
+  font-size: 20px;
+  font-family: DFKai-sb;
+  background: #2C313C;
+  color: #DDDDDD;
+}
+
+body{
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #DDDDDD;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  #firstLayer
+  {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+  }
+
+  #secondLayer
+  {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #firstLayer
+  {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 5vw;
+    font-size: 12vw;
+  }
+
+  #secondLayer
+  {
+    margin-top: 3vw;
+    margin-left: 8vw;
+    font-size: 8vw;
+  }
+}
