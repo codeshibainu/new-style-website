@@ -72,6 +72,9 @@ function draw()
 {
   if(Start)
   {
+    SentenceOne.html(Sentence[SentenceNow-2]);
+    SentenceTwo.html(Sentence[SentenceNow-1]);
+
     if(Correct == 1)
     {
       SentenceThree.html(Sentence[SentenceNow]);
