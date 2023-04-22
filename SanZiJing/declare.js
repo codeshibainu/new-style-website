@@ -1,5 +1,5 @@
 var Count;
-var Sentence = new Array(489);
+var Sentence = [];
 
 var Title;
 var ButtonStart;
