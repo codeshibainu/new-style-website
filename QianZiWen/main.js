@@ -5,13 +5,13 @@ function setup()
   initialization();
 
   Start = 0;
-  SentenceNow = 2;
+  SentenceNow = 1;
   Correct = -1;
   Successive = 0;
   SuccessiveMax = 0;
   Error = 0;
 
-  Title = createP('三字經');
+  Title = createP('千字文');
   Title.addClass('title');
 
   SuccessiveNumber = createP('連擊：' + Successive + '/' + SuccessiveMax);
