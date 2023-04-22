@@ -100,10 +100,10 @@ button.one, button.two, button.three, button.four, button.restart, button.others
   }
 
   p.one, p.two{
-    font-size: 6vw;
+    font-size: 5vw;
   }
   p.three{
-    font-size: 9vw;
+    font-size: 8vw;
   }
 
   button.start{
@@ -114,9 +114,9 @@ button.one, button.two, button.three, button.four, button.restart, button.others
 
   button.one, button.two, button.three, button.four, button.restart, button.others{
     width: 90vw;
-    height: 12vw;
+    height: 15vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
