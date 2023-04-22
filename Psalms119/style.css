@@ -114,7 +114,7 @@ button.one, button.two, button.three, button.four, button.restart, button.others
 
   button.one, button.two, button.three, button.four, button.restart, button.others{
     width: 90vw;
-    height: 15vw;
+    height: 20vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
     font-size: 5vw;
