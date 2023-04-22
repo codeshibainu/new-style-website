@@ -1,23 +1,3 @@
-var Count;
-var Title;
-var ButtonStart;
-var ButtonOne;
-var ButtonTwo;
-var ButtonThree;
-var ButtonFour;
-var SentenceOne;
-var SentenceTwo;
-var SentenceThree;
-var SentenceNow;
-var SentenceRandom;
-var SuccessiveNumber;
-var ErrorNumber;
-var Answer;
-var Start;
-var Correct;
-var Successive;
-var Error;
-
 function setup()
 {
   noCanvas();
@@ -25,15 +5,16 @@ function setup()
   initialization();
 
   Start = 0;
-  SentenceNow = 3;
+  SentenceNow = 2;
   Correct = -1;
   Successive = 0;
+  SuccessiveMax = 0;
   Error = 0;
 
   Title = createP(Sentence[0]);
   Title.addClass('title');
 
-  SuccessiveNumber = createP('連斬：' + Successive);
+  SuccessiveNumber = createP('連擊：' + Successive + '/' + SuccessiveMax);
   SuccessiveNumber.addClass('successive');
 
   ErrorNumber = createP('失誤：' + Error);
@@ -85,7 +66,7 @@ function draw()
       $("p.three").css('color', '#C8141E');
     }
 
-    $("p.successive").text('連斬：' + Successive);
+    $("p.successive").text('連擊：' + Successive + '/' + SuccessiveMax);
     $("p.error").text('失誤：' + Error);
   }
 }
@@ -94,41 +75,15 @@ function buttonStart_Clicked()
 {
   ButtonStart.hide();
 
-  SentenceOne.html(Sentence[SentenceNow-2]);
-  SentenceTwo.html(Sentence[SentenceNow-1]);
+  SentenceOne.html(Sentence[SentenceNow-1]);
+  SentenceTwo.html(Sentence[SentenceNow]);
 
-  SentenceRandom = Math.floor(Math.random() * Count);
   ButtonOne.show();
-  $("button.one").text(Sentence[SentenceRandom]);
-
-  SentenceRandom = Math.floor(Math.random() * Count);
   ButtonTwo.show();
-  $("button.two").text(Sentence[SentenceRandom]);
-
-  SentenceRandom = Math.floor(Math.random() * Count);
   ButtonThree.show();
-  $("button.three").text(Sentence[SentenceRandom]);
-
-  SentenceRandom = Math.floor(Math.random() * Count);
   ButtonFour.show();
-  $("button.four").text(Sentence[SentenceRandom]);
 
-  Answer = Math.floor(Math.random() * 4) + 1;
-  if(Answer == 1)
-  {
-    $("button.one").text(Sentence[SentenceNow]);
-  }else if(Answer == 2)
-  {
-    $("button.two").text(Sentence[SentenceNow]);
-  }else if(Answer == 3)
-  {
-    $("button.three").text(Sentence[SentenceNow]);
-  }else if(Answer == 4)
-  {
-    $("button.four").text(Sentence[SentenceNow]);
-  }
-
-  SentenceNow--;
+  setOpition();
 }
 
 function buttonOne_Clicked()
@@ -139,6 +94,10 @@ function buttonOne_Clicked()
   {
     Successive++;
     Correct = 1;
+    if(Successive > SuccessiveMax)
+    {
+      SuccessiveMax = Successive;
+    }
   }else
   {
     Successive = 0;
@@ -148,29 +107,7 @@ function buttonOne_Clicked()
 
   SentenceNow++;
 
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.one").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.two").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.three").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.four").text(Sentence[SentenceRandom]);
-
-  Answer = Math.floor(Math.random() * 4) + 1;
-  if(Answer == 1)
-  {
-    $("button.one").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 2)
-  {
-    $("button.two").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 3)
-  {
-    $("button.three").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 4)
-  {
-    $("button.four").text(Sentence[SentenceNow+1]);
-  }
+  setOpition();
 }
 
 function buttonTwo_Clicked()
@@ -181,6 +118,10 @@ function buttonTwo_Clicked()
   {
     Successive++;
     Correct = 1;
+    if(Successive > SuccessiveMax)
+    {
+      SuccessiveMax = Successive;
+    }
   }else
   {
     Successive = 0;
@@ -190,29 +131,7 @@ function buttonTwo_Clicked()
 
   SentenceNow++;
 
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.one").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.two").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.three").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.four").text(Sentence[SentenceRandom]);
-
-  Answer = Math.floor(Math.random() * 4) + 1;
-  if(Answer == 1)
-  {
-    $("button.one").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 2)
-  {
-    $("button.two").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 3)
-  {
-    $("button.three").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 4)
-  {
-    $("button.four").text(Sentence[SentenceNow+1]);
-  }
+  setOpition();
 }
 
 function buttonThree_Clicked()
@@ -223,6 +142,10 @@ function buttonThree_Clicked()
   {
     Successive++;
     Correct = 1;
+    if(Successive > SuccessiveMax)
+    {
+      SuccessiveMax = Successive;
+    }
   }else
   {
     Successive = 0;
@@ -232,29 +155,7 @@ function buttonThree_Clicked()
 
   SentenceNow++;
 
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.one").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.two").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.three").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.four").text(Sentence[SentenceRandom]);
-
-  Answer = Math.floor(Math.random() * 4) + 1;
-  if(Answer == 1)
-  {
-    $("button.one").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 2)
-  {
-    $("button.two").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 3)
-  {
-    $("button.three").text(Sentence[SentenceNow+1]);
-  }else if(Answer == 4)
-  {
-    $("button.four").text(Sentence[SentenceNow+1]);
-  }
+  setOpition();
 }
 
 function buttonFour_Clicked()
@@ -265,6 +166,10 @@ function buttonFour_Clicked()
   {
     Successive++;
     Correct = 1;
+    if(Successive > SuccessiveMax)
+    {
+      SuccessiveMax = Successive;
+    }
   }else
   {
     Successive = 0;
@@ -274,27 +179,122 @@ function buttonFour_Clicked()
 
   SentenceNow++;
 
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.one").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.two").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.three").text(Sentence[SentenceRandom]);
-  SentenceRandom = Math.floor(Math.random() * Count);
-  $("button.four").text(Sentence[SentenceRandom]);
+  setOpition();
+}
+
+function setOpition()
+{
+  var compare;
 
   Answer = Math.floor(Math.random() * 4) + 1;
   if(Answer == 1)
   {
     $("button.one").text(Sentence[SentenceNow+1]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.two").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.three").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.four").text(Sentence[SentenceRandom]);
+
   }else if(Answer == 2)
   {
     $("button.two").text(Sentence[SentenceNow+1]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.one").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.three").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.four").text(Sentence[SentenceRandom]);
   }else if(Answer == 3)
   {
     $("button.three").text(Sentence[SentenceNow+1]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.two").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.one").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.four").text(Sentence[SentenceRandom]);
   }else if(Answer == 4)
   {
     $("button.four").text(Sentence[SentenceNow+1]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.two").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.three").text(Sentence[SentenceRandom]);
+
+    compare = 0;
+    while(compare == 0)
+    {
+      SentenceRandom = Math.floor(Math.random() * Count);
+      compare = Sentence[SentenceRandom].localeCompare(Sentence[SentenceNow+1]);
+    }
+    $("button.one").text(Sentence[SentenceRandom]);
   }
 }
