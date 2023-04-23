@@ -9,13 +9,19 @@ html{
 p.title{
   margin-top: 2vw;
   margin-bottom: 5vw;
-  font-size: 5vw;
   color: #964696;
   text-align: center;
 }
 
 p.successive, p.error{
   text-align: left;
+}
+
+p.poem{
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  color: #1E8C3C;
+  text-align: center;
 }
 
 p.one, p.two{
@@ -42,15 +48,19 @@ button.start{
   background: #C0C0C0;
 }
 
-button.one, button.two, button.three, button.four, button.restart, button.others{
+button.next, button.restart, button.others{
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 30vw;
-  height: 4vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  font-size: 2vw;
+  font-family: DFKai-sb;
+  border: none;
+  background: #909090;
+}
+
+button.one, button.two, button.three, button.four{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: DFKai-sb;
   border: none;
   background: #707070;
@@ -59,6 +69,10 @@ button.one, button.two, button.three, button.four, button.restart, button.others
 @media screen and (min-width: 1024px) {
   p.title{
     font-size: 5vw;
+  }
+
+  p.poem{
+    font-size: 3vw;
   }
 
   p.successive, p.error{
@@ -80,7 +94,15 @@ button.one, button.two, button.three, button.four, button.restart, button.others
     font-size: 2vw;
   }
 
-  button.one, button.two, button.three, button.four, button.restart, button.others{
+  button.next, button.restart, button.others{
+    width: 30vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+  }
+
+  button.one, button.two, button.three, button.four{
     width: 40vw;
     height: 4vw;
     margin-top: 2vw;
@@ -91,7 +113,11 @@ button.one, button.two, button.three, button.four, button.restart, button.others
 
 @media screen and (max-width: 1024px) {
   p.title{
-    font-size: 20vw;
+    font-size: 15vw;
+  }
+
+  p.poem{
+    font-size: 8vw;
   }
 
   p.successive, p.error{
@@ -112,9 +138,17 @@ button.one, button.two, button.three, button.four, button.restart, button.others
     font-size: 8vw;
   }
 
-  button.one, button.two, button.three, button.four, button.restart, button.others{
-    width: 90vw;
-    height: 20vw;
+  button.next, button.restart, button.others{
+    width: 50vw;
+    height: 12vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 5vw;
+  }
+
+  button.one, button.two, button.three, button.four{
+    width: 70vw;
+    height: 12vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
     font-size: 5vw;

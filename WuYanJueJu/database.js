@@ -117,6 +117,14 @@ function initialization()
   Sentence[114] = "至今窺牧馬";
   Sentence[115] = "不敢過臨洮";
 
+  var i;
+  Count = 29;
+
+  for(i=0; i<Count; i++)
+  {
+    Poem[i] = [];
+  }
+
   Poem[0][0] = "王維《鹿柴》";
   Poem[0][1] = "0";
   Poem[0][2] = "3";
@@ -205,5 +213,18 @@ function initialization()
   Poem[28][1] = "112";
   Poem[28][2] = "115";
 
-  Count = 29;
+  var i, temp, tempOne, tempTwo;
+
+  for(i=0; i<1000; i++)
+  {
+    tempOne = Math.floor(Math.random() * Count);
+    tempTwo = Math.floor(Math.random() * Count);
+
+    for(j=0; j<3; j++)
+    {
+      temp = Poem[tempOne][j];
+      Poem[tempOne][j] = Poem[tempTwo][j];
+      Poem[tempTwo][j] = temp;
+    }
+  }
 }

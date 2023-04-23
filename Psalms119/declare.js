@@ -6,6 +6,8 @@ var ButtonStart;
 var ButtonOne;
 var ButtonTwo;
 var ButtonThree;
+var ButtonRestart;
+var ButtonOthers;
 var ButtonFour;
 var SentenceOne;
 var SentenceTwo;
