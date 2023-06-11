@@ -10,7 +10,7 @@ function setup()
   SuccessiveMax = 0;
   Error = 0;
 
-  Title = createP('五言絕句');
+  Title = createP('七言絕句');
   Title.addClass('title');
 
   SuccessiveNumber = createP('連擊：' + Successive + '/' + SuccessiveMax);
@@ -65,7 +65,7 @@ function setup()
 
 function draw()
 {
-  console.log(SentenceNow);
+  console.log(PoemIndex);
 
   if(Start)
   {

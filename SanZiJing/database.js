@@ -419,7 +419,7 @@ function initialization()
   Sentence[416] = "自勤苦";
   Sentence[417] = "如囊螢";
   Sentence[418] = "如映雪";
-  Sentence[419] = "家貧雖";
+  Sentence[419] = "家雖貧";
   Sentence[420] = "學不輟";
   Sentence[421] = "如負薪";
   Sentence[422] = "如掛角";
