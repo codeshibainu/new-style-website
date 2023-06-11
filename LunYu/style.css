@@ -81,7 +81,7 @@ button.one, button.two, button.three, button.four, button.restart, button.others
   }
 
   button.one, button.two, button.three, button.four, button.restart, button.others{
-    width: 30vw;
+    width: 40vw;
     height: 4vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -113,7 +113,7 @@ button.one, button.two, button.three, button.four, button.restart, button.others
   }
 
   button.one, button.two, button.three, button.four, button.restart, button.others{
-    width: 60vw;
+    width: 80vw;
     height: 12vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
