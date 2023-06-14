@@ -23,7 +23,7 @@ function initialization()
   Sentence[20] = "歸山深淺去";
   Sentence[21] = "須盡丘壑美";
   Sentence[22] = "莫學武陵人";
-  Sentence[23] = "暫遊桃源裡";
+  Sentence[23] = "暫游桃源裡";
   Sentence[24] = "終南陰嶺秀";
   Sentence[25] = "積雪浮雲端";
   Sentence[26] = "林表明霽色";
