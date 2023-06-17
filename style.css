@@ -13,6 +13,7 @@ body{
 a{
   text-decoration: none;
   color: #DDDDDD;
+  font-family: "Times New Roman";
 }
 a:hover{
   text-decoration: underline;
