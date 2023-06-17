@@ -1,6 +1,6 @@
 function initialization()
 {
-  Sentence[0] = "ΚΑΤΑ ΜΑΘΘΑΙΟΝ 6:9～13";
+  Sentence[0] = "ΚΑΤΑ ΜΑΘΘΑΙΟΝ 6:9~13";
   Sentence[1] = "Πάτερ";
   Sentence[2] = "ἡμῶν";
   Sentence[3] = "ὁ";
