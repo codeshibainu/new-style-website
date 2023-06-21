@@ -10,7 +10,7 @@ function setup()
   SuccessiveMax = 0;
   Error = 0;
 
-  Title = createP('五言絕句');
+  Title = createP('病病');
   Title.addClass('title');
 
   SuccessiveNumber = createP('連擊：' + Successive + '/' + SuccessiveMax);
@@ -65,7 +65,7 @@ function setup()
 
 function draw()
 {
-  console.log(SentenceNow);
+  console.log(PoemIndex);
 
   if(Start)
   {
@@ -176,7 +176,9 @@ function buttonOne_Clicked()
   Start = 1;
   PoemName.hide();
 
-  if(SentenceNow == 3)
+  console.log("S: " + StartIndex + ", E: " + EndIndex);
+
+  if(StartIndex == EndIndex)
   {
     ButtonOne.hide();
     ButtonTwo.hide();
@@ -213,7 +215,9 @@ function buttonTwo_Clicked()
   Start = 1;
   PoemName.hide();
 
-  if(SentenceNow == 3)
+  console.log("S: " + StartIndex + ", E: " + EndIndex);
+
+  if(StartIndex == EndIndex)
   {
     ButtonOne.hide();
     ButtonTwo.hide();
@@ -250,7 +254,9 @@ function buttonThree_Clicked()
   Start = 1;
   PoemName.hide();
 
-  if(SentenceNow == 3)
+  console.log("S: " + StartIndex + ", E: " + EndIndex);
+
+  if(StartIndex == EndIndex)
   {
     ButtonOne.hide();
     ButtonTwo.hide();
@@ -287,7 +293,9 @@ function buttonFour_Clicked()
   Start = 1;
   PoemName.hide();
 
-  if(SentenceNow == 3)
+  console.log("S: " + StartIndex + ", E: " + EndIndex);
+
+  if(StartIndex == EndIndex)
   {
     ButtonOne.hide();
     ButtonTwo.hide();
@@ -345,9 +353,10 @@ function buttonOthers_Clicked()
 
 function setPoem()
 {
-  PoemName.html(Poem[PoemIndex][0]);
-  StartIndex = Poem[PoemIndex][1];
-  EndIndex = Poem[PoemIndex][2];
+  var temp = PoemIndex + 1;
+  PoemName.html("Case " + temp);
+  StartIndex = Poem[PoemIndex][0];
+  EndIndex = Poem[PoemIndex][1];
 
   PoemIndex++;
   SentenceNow = 0;
@@ -356,6 +365,7 @@ function setPoem()
 function setOpition()
 {
   var compare;
+  var invalid;
 
   Answer = Math.floor(Math.random() * 4) + 1;
   if(Answer == 1)
@@ -363,26 +373,47 @@ function setOpition()
     $("button.one").text(Sentence[StartIndex]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.two").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.three").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.four").text(Sentence[SentenceRandom]);
 
@@ -391,26 +422,47 @@ function setOpition()
     $("button.two").text(Sentence[StartIndex]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.one").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.three").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.four").text(Sentence[SentenceRandom]);
   }else if(Answer == 3)
@@ -418,26 +470,47 @@ function setOpition()
     $("button.three").text(Sentence[StartIndex]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.two").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.one").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.four").text(Sentence[SentenceRandom]);
   }else if(Answer == 4)
@@ -445,26 +518,47 @@ function setOpition()
     $("button.four").text(Sentence[StartIndex]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.two").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.three").text(Sentence[SentenceRandom]);
 
     compare = 0;
-    while(compare == 0)
+    invalid = 0;
+    while(compare==0 || invalid==1)
     {
       SentenceRandom = Math.floor(Math.random() * Count);
       compare = Sentence[SentenceRandom].localeCompare(Sentence[StartIndex]);
+
+      invalid = 0;
+      if(Sentence[SentenceRandom] == "&")
+      {
+        invalid = 1;
+      }
     }
     $("button.one").text(Sentence[SentenceRandom]);
   }

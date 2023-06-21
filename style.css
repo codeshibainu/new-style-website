@@ -13,6 +13,11 @@ body{
 a{
   text-decoration: none;
   color: #DDDDDD;
+  font-family: DFKai-sb;
+}
+a.english{
+  text-decoration: none;
+  color: #DDDDDD;
   font-family: "Times New Roman";
 }
 a:hover{
