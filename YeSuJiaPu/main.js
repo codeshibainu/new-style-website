@@ -91,6 +91,15 @@ function draw()
     SentenceNow = 1;
     Start = 0;
   }
+
+  if(Audio)
+  {
+    const audio = document.createElement("audio");
+  　audio.src = "./audio/" + SentenceNow + ".wav";
+  　audio.play();
+
+    Audio = 0;
+  }
 }
 
 function buttonStart_Clicked()
@@ -107,6 +116,15 @@ function buttonStart_Clicked()
   ButtonTwo.show();
   ButtonThree.show();
   ButtonFour.show();
+
+  const audioOne = document.createElement("audio");
+　audioOne.src = "./audio/1.wav";
+　audioOne.play();
+  sleep(700).then(function() {
+    const audioTwo = document.createElement("audio");
+    audioTwo.src = "./audio/2.wav";
+    audioTwo.play();
+  });
 
   setOpition();
 }
@@ -131,6 +149,7 @@ function buttonOne_Clicked()
   }
 
   SentenceNow++;
+  Audio = 1;
 
   setOpition();
 }
@@ -155,6 +174,7 @@ function buttonTwo_Clicked()
   }
 
   SentenceNow++;
+  Audio = 1;
 
   setOpition();
 }
@@ -179,6 +199,7 @@ function buttonThree_Clicked()
   }
 
   SentenceNow++;
+  Audio = 1;
 
   setOpition();
 }
@@ -203,6 +224,7 @@ function buttonFour_Clicked()
   }
 
   SentenceNow++;
+  Audio = 1;
 
   setOpition();
 }
@@ -327,4 +349,12 @@ function setOpition()
     }
     $("button.one").text(Sentence[SentenceRandom]);
   }
+}
+
+
+function sleep(time)
+{
+    return(new Promise(function(resolve, reject) {
+        setTimeout(function() { resolve(); }, time);
+    }));
 }

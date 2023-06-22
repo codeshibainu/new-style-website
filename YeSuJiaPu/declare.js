@@ -23,3 +23,4 @@ var Correct;
 var Successive;
 var SuccessiveMax;
 var Error;
+var Audio;
