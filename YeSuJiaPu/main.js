@@ -10,6 +10,7 @@ function setup()
   Successive = 0;
   SuccessiveMax = 0;
   Error = 0;
+  Audio = 0;
 
   Title = createP(Sentence[0]);
   Title.addClass('title');
