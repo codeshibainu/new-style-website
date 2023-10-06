@@ -119,6 +119,7 @@ function initialization()
 
   var i;
   Count = 29;
+  SentenceCount = 116;
 
   for(i=0; i<Count; i++)
   {
@@ -213,7 +214,7 @@ function initialization()
   Poem[28][1] = "112";
   Poem[28][2] = "115";
 
-  var i, temp, tempOne, tempTwo;
+  var j, temp, tempOne, tempTwo;
 
   for(i=0; i<1000; i++)
   {

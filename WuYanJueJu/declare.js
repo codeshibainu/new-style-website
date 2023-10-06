@@ -1,4 +1,5 @@
 var Count;
+var SentenceCount;
 var Sentence = [];
 var Poem = [];
 

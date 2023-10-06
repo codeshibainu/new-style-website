@@ -203,6 +203,7 @@ function initialization()
 
   var i;
   Count = 50;
+  SentenceCount = 200;
 
   for(i=0; i<Count; i++)
   {
@@ -360,7 +361,7 @@ function initialization()
   Poem[49][1] = "196";
   Poem[49][2] = "199";
 
-  var i, temp, tempOne, tempTwo;
+  var j, temp, tempOne, tempTwo;
 
   for(i=0; i<1000; i++)
   {

@@ -5700,6 +5700,7 @@ function initialization()
 
   var i;
   Count = 357;
+  SentenceCount = 5697;
 
   for(i=0; i<Count; i++)
   {
@@ -6421,7 +6422,7 @@ function initialization()
   Poem[356][0] = 5682;
   Poem[356][1] = 5696;
 
-  var i, temp, tempOne, tempTwo;
+  var j, temp, tempOne, tempTwo;
 
   for(i=0; i<1000; i++)
   {
