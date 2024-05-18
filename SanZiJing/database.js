@@ -74,7 +74,7 @@ function initialization()
   Sentence[71] = "十二支";
   Sentence[72] = "子至亥";
   Sentence[73] = "曰黃道";
-  Sentence[74] = "曰所躔";
+  Sentence[74] = "日所躔";
   Sentence[75] = "曰赤道";
   Sentence[76] = "當中權";
   Sentence[77] = "赤道下";
