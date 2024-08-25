@@ -191,7 +191,7 @@ function initialization()
   Sentence[188] = "林空鹿飲溪";
   Sentence[189] = "人家在何許";
   Sentence[190] = "雲外一聲雞";
-  Sentence[191] = "三萬裏河東入海";
+  Sentence[191] = "三萬里河東入海";
   Sentence[192] = "五千仞嶽上摩天";
   Sentence[193] = "遺民淚盡胡塵裏";
   Sentence[194] = "南望王師又一年";
