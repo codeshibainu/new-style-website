@@ -120,7 +120,7 @@ function initialization()
   Sentence[117] = "錦城絲管日紛紛";
   Sentence[118] = "半入江風半入雲";
   Sentence[119] = "此曲只應天上有";
-  Sentence[120] = "人間難得幾回聞";
+  Sentence[120] = "人間能得幾回聞";
   Sentence[121] = "劍外忽傳收薊北";
   Sentence[122] = "初聞涕淚滿衣裳";
   Sentence[123] = "卻看妻子愁何在";
