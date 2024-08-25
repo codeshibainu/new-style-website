@@ -242,7 +242,7 @@ function initialization()
   Sentence[239] = "農夫猶餓死";
   Sentence[240] = "鋤禾日當午";
   Sentence[241] = "汗滴禾下土";
-  Sentence[242] = "誰知盤中飧";
+  Sentence[242] = "誰知盤中餐";
   Sentence[243] = "粒粒皆辛苦";
   Sentence[244] = "晨起動征鐸";
   Sentence[245] = "客行悲故鄉";
