@@ -169,7 +169,7 @@ function initialization()
   Sentence[166] = "總把新桃換舊符";
   Sentence[167] = "勝日尋芳泗水濱";
   Sentence[168] = "無邊光景一時新";
-  Sentence[169] = "等閒識得東風面";
+  Sentence[169] = "等閑識得東風面";
   Sentence[170] = "萬紫千紅總是春";
   Sentence[171] = "橫看成嶺側成峯";
   Sentence[172] = "遠近高低各不同";
