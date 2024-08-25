@@ -54,7 +54,7 @@ function initialization()
   Sentence[51] = "但使龍城飛將在";
   Sentence[52] = "不教胡馬度陰山";
   Sentence[53] = "琵琶起舞換新聲";
-  Sentence[54] = "總是關山離別情";
+  Sentence[54] = "總是關山舊別情";
   Sentence[55] = "撩亂邊愁彈不盡";
   Sentence[56] = "高高秋月照長城";
   Sentence[57] = "青海長雲暗雪山";
