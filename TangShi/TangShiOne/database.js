@@ -150,7 +150,7 @@ function initialization()
   Sentence[147] = "銀燭秋光冷畫屏";
   Sentence[148] = "輕羅小扇撲流螢";
   Sentence[149] = "天階夜色涼如水";
-  Sentence[150] = "臥看牽牛織女星";
+  Sentence[150] = "坐看牽牛織女星";
   Sentence[151] = "清明時節雨紛紛";
   Sentence[152] = "路上行人欲斷魂";
   Sentence[153] = "借問酒家何處有";
