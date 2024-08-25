@@ -969,7 +969,7 @@ function initialization()
   Sentence[966] = "將進酒";
   Sentence[967] = "杯莫停";
   Sentence[968] = "與君歌一曲";
-  Sentence[969] = "請君爲我傾耳聽";
+  Sentence[969] = "請君爲我側耳聽";
   Sentence[970] = "鐘鼓饌玉不足貴";
   Sentence[971] = "但願長醉不願醒";
   Sentence[972] = "古來聖賢皆寂寞";
