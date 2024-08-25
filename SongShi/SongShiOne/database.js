@@ -292,7 +292,7 @@ function initialization()
   Sentence[289] = "殘雪未融青草死";
   Sentence[290] = "苦無麋鹿過姑蘇";
   Sentence[291] = "黃帽傳呼睡不成";
-  Sentence[292] = "投稿細細激流冰";
+  Sentence[292] = "投篙細細激流冰";
   Sentence[293] = "分明舊泊江南岸";
   Sentence[294] = "舟尾春風颭客燈";
   Sentence[295] = "千門列炬散林鴉";
