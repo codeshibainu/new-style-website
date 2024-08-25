@@ -9,7 +9,7 @@ function initialization()
   Sentence[6] = "兒女已在眼";
   Sentence[7] = "眉目略不省";
   Sentence[8] = "喜極不得語";
-  Sentence[9] = "淚盡方一唒";
+  Sentence[9] = "淚盡方一哂";
   Sentence[10] = "了知不是夢";
   Sentence[11] = "忽忽心未穩";
   Sentence[12] = "稍離煙瘴近湘潭";
