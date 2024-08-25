@@ -556,10 +556,10 @@ function initialization()
   Sentence[553] = "壞壁無由見舊題";
   Sentence[554] = "往日崎嶇還記否";
   Sentence[555] = "路長人困蹇驢嘶";
-  Sentence[556] = "飛來峯上千尋塔";
+  Sentence[556] = "飛來山上千尋塔";
   Sentence[557] = "聞說雞鳴見日升";
   Sentence[558] = "不畏浮雲遮望眼";
-  Sentence[559] = "只緣身在最高層";
+  Sentence[559] = "自緣身在最高層";
   Sentence[560] = "亂條猶未變初黃";
   Sentence[561] = "倚得東風勢便狂";
   Sentence[562] = "解把飛花蒙日月";
