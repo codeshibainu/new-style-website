@@ -234,7 +234,7 @@ function initialization()
   Sentence[231] = "水光瀲灩晴方好";
   Sentence[232] = "山色空濛雨亦奇";
   Sentence[233] = "欲把西湖比西子";
-  Sentence[234] = "濃妝淡抹總相宜";
+  Sentence[234] = "淡妝濃抹總相宜";
   Sentence[235] = "京口瓜洲一水間";
   Sentence[236] = "鐘山只隔數重山";
   Sentence[237] = "春風又綠江南岸";
