@@ -126,7 +126,7 @@ function initialization()
   Sentence[123] = "雲淡風輕近午天";
   Sentence[124] = "傍花隨柳過前川";
   Sentence[125] = "時人不識餘心樂";
-  Sentence[126] = "將謂偷閒學少年";
+  Sentence[126] = "將謂偷閑學少年";
   Sentence[127] = "雙飛燕子幾時回";
   Sentence[128] = "夾岸桃花蘸水開";
   Sentence[129] = "春雨斷橋人不度";
