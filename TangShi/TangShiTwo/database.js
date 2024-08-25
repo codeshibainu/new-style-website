@@ -903,7 +903,7 @@ function initialization()
   Sentence[900] = "春風拂檻露華濃";
   Sentence[901] = "若非群玉山頭見";
   Sentence[902] = "會向瑤台月下逢";
-  Sentence[903] = "一枝紅艷露凝香";
+  Sentence[903] = "一枝紅豔露凝香";
   Sentence[904] = "雲雨巫山枉斷腸";
   Sentence[905] = "借問漢宮誰得似";
   Sentence[906] = "可憐飛燕倚新妝";
