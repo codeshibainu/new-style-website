@@ -140,9 +140,9 @@ function initialization()
   Sentence[137] = "但得衆生皆得飽";
   Sentence[138] = "不辭羸病臥殘陽";
   Sentence[139] = "清風無力屠得熱";
-  Sentence[140] = "落日着翅飛上山";
+  Sentence[140] = "落日著翅飛上山";
   Sentence[141] = "人固已懼江海竭";
-  Sentence[142] = "天豈不惜河漢幹";
+  Sentence[142] = "天豈不惜河漢乾";
   Sentence[143] = "崑崙之高有積雪";
   Sentence[144] = "蓬萊之遠常遺寒";
   Sentence[145] = "不能手提天下往";
