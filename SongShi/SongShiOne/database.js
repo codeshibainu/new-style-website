@@ -593,7 +593,7 @@ function initialization()
   Sentence[590] = "情雖不厭住不得";
   Sentence[591] = "薄暮歸來車馬疲";
   Sentence[592] = "枕中雲氣千峯近";
-  Sentence[593] = "牀底鬆聲萬壑哀";
+  Sentence[593] = "牀底松聲萬壑哀";
   Sentence[594] = "要看銀山拍天浪";
   Sentence[595] = "開窗放入大江來";
   Sentence[596] = "墜素翻紅各自傷";
