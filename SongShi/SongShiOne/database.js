@@ -33,7 +33,7 @@ function initialization()
   Sentence[30] = "不管煙波與風雨";
   Sentence[31] = "載將離恨過江南";
   Sentence[32] = "鳴骹直上一千尺";
-  Sentence[33] = "天靜無風聲更幹";
+  Sentence[33] = "天靜無風聲更乾";
   Sentence[34] = "碧眼胡兒三百騎";
   Sentence[35] = "盡提金勒向雲看";
   Sentence[36] = "衣上征塵雜酒痕";
