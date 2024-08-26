@@ -323,7 +323,7 @@ function initialization()
   Sentence[320] = "香霧雲鬟濕";
   Sentence[321] = "清輝玉臂寒";
   Sentence[322] = "何時倚虛幌";
-  Sentence[323] = "雙照淚痕干";
+  Sentence[323] = "雙照淚痕乾";
   Sentence[324] = "國破山河在";
   Sentence[325] = "城春草木深";
   Sentence[326] = "感時花濺淚";
