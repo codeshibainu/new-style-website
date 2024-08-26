@@ -664,7 +664,7 @@ function initialization()
   Sentence[661] = "花冠不整下堂來";
   Sentence[662] = "風吹仙袂飄颻舉";
   Sentence[663] = "猶似霓裳羽衣舞";
-  Sentence[664] = "玉容寂寞淚闌乾";
+  Sentence[664] = "玉容寂寞淚闌干";
   Sentence[665] = "梨花一枝春帶雨";
   Sentence[666] = "含情凝睇謝君王";
   Sentence[667] = "一別音容兩渺茫";
@@ -808,7 +808,7 @@ function initialization()
   Sentence[805] = "狐裘不暖錦衾薄";
   Sentence[806] = "將軍角弓不得控";
   Sentence[807] = "都護鐵衣冷難著";
-  Sentence[808] = "瀚海闌乾百丈冰";
+  Sentence[808] = "瀚海闌干百丈冰";
   Sentence[809] = "愁雲慘澹萬里凝";
   Sentence[810] = "中軍置酒飲歸客";
   Sentence[811] = "胡琴琵琶與羌笛";
