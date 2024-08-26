@@ -536,7 +536,7 @@ function initialization()
   Sentence[533] = "世事兩茫茫";
   Sentence[534] = "絕代有佳人";
   Sentence[535] = "幽居在空谷";
-  Sentence[536] = "自雲良家子";
+  Sentence[536] = "自云良家子";
   Sentence[537] = "零落依草木";
   Sentence[538] = "關中昔喪亂";
   Sentence[539] = "兄弟遭殺戮";
