@@ -340,7 +340,7 @@ function initialization()
   Sentence[337] = "日高花影重";
   Sentence[338] = "年年越溪女";
   Sentence[339] = "相憶采芙蓉";
-  Sentence[340] = "鳳凰台上鳳凰游";
+  Sentence[340] = "鳳凰台上鳳凰遊";
   Sentence[341] = "鳳去台空江自流";
   Sentence[342] = "吳宮花草埋幽徑";
   Sentence[343] = "晉代衣冠成古丘";
