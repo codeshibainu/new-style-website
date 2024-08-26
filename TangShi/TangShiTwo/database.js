@@ -40,7 +40,7 @@ function initialization()
   Sentence[37] = "日暮掩柴扉";
   Sentence[38] = "春草明年綠";
   Sentence[39] = "王孫歸不歸";
-  Sentence[40] = "美人卷珠簾";
+  Sentence[40] = "美人捲珠簾";
   Sentence[41] = "深坐顰蛾眉";
   Sentence[42] = "但見淚痕濕";
   Sentence[43] = "不知心恨誰";
