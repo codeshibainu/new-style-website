@@ -404,7 +404,7 @@ function initialization()
   Sentence[401] = "芳草萋萋鸚鵡洲";
   Sentence[402] = "日暮鄉關何處是";
   Sentence[403] = "煙波江上使人愁";
-  Sentence[404] = "去年花里逢君別";
+  Sentence[404] = "去年花裡逢君別";
   Sentence[405] = "今日花開又一年";
   Sentence[406] = "世事茫茫難自料";
   Sentence[407] = "春愁黯黯獨成眠";
