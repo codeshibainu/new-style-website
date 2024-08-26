@@ -133,7 +133,7 @@ function initialization()
   Sentence[130] = "嫦娥應悔偷靈藥";
   Sentence[131] = "碧海青天夜夜心";
   Sentence[132] = "故園東望路漫漫";
-  Sentence[133] = "雙袖龍鍾淚不干";
+  Sentence[133] = "雙袖龍鍾淚不乾";
   Sentence[134] = "馬上相逢無紙筆";
   Sentence[135] = "憑君傳語報平安";
   Sentence[136] = "故人西辭黃鶴樓";
