@@ -367,7 +367,7 @@ function initialization()
   Sentence[364] = "相見時難別亦難";
   Sentence[365] = "東風無力百花殘";
   Sentence[366] = "春蠶到死絲方盡";
-  Sentence[367] = "蠟炬成灰淚始干";
+  Sentence[367] = "蠟炬成灰淚始乾";
   Sentence[368] = "曉鏡但愁雲鬢改";
   Sentence[369] = "夜吟應覺月光寒";
   Sentence[370] = "蓬山此去無多路";
@@ -664,7 +664,7 @@ function initialization()
   Sentence[661] = "花冠不整下堂來";
   Sentence[662] = "風吹仙袂飄颻舉";
   Sentence[663] = "猶似霓裳羽衣舞";
-  Sentence[664] = "玉容寂寞淚闌干";
+  Sentence[664] = "玉容寂寞淚闌乾";
   Sentence[665] = "梨花一枝春帶雨";
   Sentence[666] = "含情凝睇謝君王";
   Sentence[667] = "一別音容兩渺茫";
@@ -773,7 +773,7 @@ function initialization()
   Sentence[770] = "去來江口守空船";
   Sentence[771] = "繞船月明江水寒";
   Sentence[772] = "夜深忽夢少年事";
-  Sentence[773] = "夢啼紅妝淚闌干";
+  Sentence[773] = "夢啼紅妝淚闌乾";
   Sentence[774] = "我聞琵琶已歎息";
   Sentence[775] = "又聞此語重唧唧";
   Sentence[776] = "同是天涯淪落人";
@@ -808,7 +808,7 @@ function initialization()
   Sentence[805] = "狐裘不暖錦衾薄";
   Sentence[806] = "將軍角弓不得控";
   Sentence[807] = "都護鐵衣冷難著";
-  Sentence[808] = "瀚海闌干百丈冰";
+  Sentence[808] = "瀚海闌乾百丈冰";
   Sentence[809] = "愁雲慘澹萬里凝";
   Sentence[810] = "中軍置酒飲歸客";
   Sentence[811] = "胡琴琵琶與羌笛";
