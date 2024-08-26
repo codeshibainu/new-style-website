@@ -498,7 +498,7 @@ function initialization()
   Sentence[495] = "若負平生志";
   Sentence[496] = "冠蓋滿京華";
   Sentence[497] = "斯人獨憔悴";
-  Sentence[498] = "孰雲網恢恢";
+  Sentence[498] = "孰云網恢恢";
   Sentence[499] = "將老身反累";
   Sentence[500] = "千秋萬歲名";
   Sentence[501] = "寂寞身後事";
