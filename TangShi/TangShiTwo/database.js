@@ -773,7 +773,7 @@ function initialization()
   Sentence[770] = "去來江口守空船";
   Sentence[771] = "繞船月明江水寒";
   Sentence[772] = "夜深忽夢少年事";
-  Sentence[773] = "夢啼紅妝淚闌乾";
+  Sentence[773] = "夢啼妝淚紅闌干";
   Sentence[774] = "我聞琵琶已歎息";
   Sentence[775] = "又聞此語重唧唧";
   Sentence[776] = "同是天涯淪落人";
