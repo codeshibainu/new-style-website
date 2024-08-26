@@ -630,7 +630,7 @@ function initialization()
   Sentence[627] = "秋雨梧桐葉落時";
   Sentence[628] = "西宮南內多秋草";
   Sentence[629] = "落葉滿階紅不掃";
-  Sentence[630] = "梨園子弟白髮新";
+  Sentence[630] = "梨園弟子白髮新";
   Sentence[631] = "椒房阿監青娥老";
   Sentence[632] = "夕殿螢飛思悄然";
   Sentence[633] = "孤燈挑盡未成眠";
