@@ -831,7 +831,7 @@ function initialization()
   Sentence[828] = "抽刀斷水水更流";
   Sentence[829] = "舉杯銷愁愁更愁";
   Sentence[830] = "人生在世不稱意";
-  Sentence[831] = "明朝散發弄扁舟";
+  Sentence[831] = "明朝散髮弄扁舟";
   Sentence[832] = "海客談瀛洲";
   Sentence[833] = "煙濤微茫信難求";
   Sentence[834] = "越人語天姥";
