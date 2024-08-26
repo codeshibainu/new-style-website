@@ -96,7 +96,7 @@ function initialization()
   Sentence[93] = "鄉音無改鬢毛衰";
   Sentence[94] = "兒童相見不相識";
   Sentence[95] = "笑問客從何處來";
-  Sentence[96] = "岐王宅里尋常見";
+  Sentence[96] = "岐王宅裏尋常見";
   Sentence[97] = "崔九堂前幾度聞";
   Sentence[98] = "正是江南好風景";
   Sentence[99] = "落花時節又逢君";
