@@ -660,7 +660,7 @@ function initialization()
   Sentence[657] = "九華帳裏夢魂驚";
   Sentence[658] = "攬衣推枕起徘徊";
   Sentence[659] = "珠箔銀屏迤邐開";
-  Sentence[660] = "雲髻半偏新睡覺";
+  Sentence[660] = "雲鬢半偏新睡覺";
   Sentence[661] = "花冠不整下堂來";
   Sentence[662] = "風吹仙袂飄颻舉";
   Sentence[663] = "猶似霓裳羽衣舞";
