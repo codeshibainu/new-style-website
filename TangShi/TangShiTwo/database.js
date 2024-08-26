@@ -554,7 +554,7 @@ function initialization()
   Sentence[551] = "出山泉水濁";
   Sentence[552] = "侍婢賣珠回";
   Sentence[553] = "牽蘿補茅屋";
-  Sentence[554] = "摘花不插發";
+  Sentence[554] = "摘花不插髮";
   Sentence[555] = "采柏動盈掬";
   Sentence[556] = "天寒翠袖薄";
   Sentence[557] = "日暮倚修竹";
