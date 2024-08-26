@@ -210,7 +210,7 @@ function initialization()
   Sentence[207] = "寒雲路幾層";
   Sentence[208] = "獨敲初夜磬";
   Sentence[209] = "閒倚一枝藤";
-  Sentence[210] = "世界微塵里";
+  Sentence[210] = "世界微塵裡";
   Sentence[211] = "吾寧愛與憎";
   Sentence[212] = "吾愛孟夫子";
   Sentence[213] = "風流天下聞";
