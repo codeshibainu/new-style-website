@@ -285,7 +285,7 @@ function initialization()
   Sentence[282] = "隨意春芳歇";
   Sentence[283] = "王孫自可留";
   Sentence[284] = "渡遠荊門外";
-  Sentence[285] = "來從楚國游";
+  Sentence[285] = "來從楚國遊";
   Sentence[286] = "山隨平野盡";
   Sentence[287] = "江入大荒流";
   Sentence[288] = "月下飛天鏡";
@@ -303,7 +303,7 @@ function initialization()
   Sentence[300] = "細草微風岸";
   Sentence[301] = "危檣獨夜舟";
   Sentence[302] = "星垂平野闊";
-  Sentence[303] = "月涌大江流";
+  Sentence[303] = "月湧大江流";
   Sentence[304] = "名豈文章著";
   Sentence[305] = "官應老病休";
   Sentence[306] = "飄飄何所似";
