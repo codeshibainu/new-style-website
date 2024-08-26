@@ -524,7 +524,7 @@ function initialization()
   Sentence[521] = "兒女忽成行";
   Sentence[522] = "怡然敬父執";
   Sentence[523] = "問我來何方";
-  Sentence[524] = "問答未及已";
+  Sentence[524] = "問答乃未已";
   Sentence[525] = "兒女羅酒漿";
   Sentence[526] = "夜雨剪春韭";
   Sentence[527] = "新炊間黃粱";
