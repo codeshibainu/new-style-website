@@ -185,7 +185,7 @@ function initialization()
   Sentence[182] = "問姓驚初見";
   Sentence[183] = "稱名憶舊容";
   Sentence[184] = "別來滄海事";
-  Sentence[185] = "語罷暮天鍾";
+  Sentence[185] = "語罷暮天鐘";
   Sentence[186] = "明日巴陵道";
   Sentence[187] = "秋山又幾重";
   Sentence[188] = "青山橫北郭";
