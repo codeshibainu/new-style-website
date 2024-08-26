@@ -126,7 +126,7 @@ function initialization()
   Sentence[123] = "替人垂淚到天明";
   Sentence[124] = "寂寂花時閉院門";
   Sentence[125] = "美人相併立瓊軒";
-  Sentence[126] = "含情慾說宮中事";
+  Sentence[126] = "含情欲說宮中事";
   Sentence[127] = "鸚鵡前頭不敢言";
   Sentence[128] = "雲母屏風燭影深";
   Sentence[129] = "長河漸落曉星沉";
